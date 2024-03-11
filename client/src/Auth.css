@@ -1,0 +1,41 @@
+.DetailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--yellow);
+    width: 30rem;
+    height: 35rem;
+    margin: 10px auto;
+    padding: 60px;
+  }
+  
+  .DetailContainer > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -30px;
+  }
+  
+  .DetailContainer > button {
+    margin-top: 50px;
+    background-color: var(--black);
+    color: var(--yellow);
+    cursor: pointer;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  .DetailContainer > button:hover {
+    transform: scale(1.05);
+    border: 1px solid var(--black);
+  }
+  .DetailContainer > p.forgot-password {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: var(--black); /* Adjust color as needed */
+    text-align: right;
+  }
+  .DetailContainer > p.noaccount {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: var(--black); /* Adjust color as needed */
+    text-align: center;
+  }
