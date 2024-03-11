@@ -1,0 +1,60 @@
+
+.title {
+    color: var(--yellow);
+    text-align: center;
+    font-size: 1.5rem; 
+}
+  .contentContainer2 {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: 20px;
+}
+
+.infoRow {
+    display: flex;
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 10px;
+    padding-left: 2rem;
+    font-size: 1rem; 
+}
+
+.infoRow p {
+    color: var(--black);
+    width: calc(100% / 8);
+    margin: 3px 10px;
+  }
+  
+  .additional {
+    width: calc(100% / 8);
+    margin: 5px 0;
+    font-size: 0.9rem; 
+  }
+  
+  .spacer {
+    flex-basis: 100%;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    margin-right: 50px;
+    color: white;
+  }
+  
+  .page {
+    
+    margin: 0 6px;
+    cursor: pointer;
+  }
+  
+  .page.active {
+    
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  

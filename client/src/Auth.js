@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import Nav from './Nav/Nav';
 import './Auth.css';

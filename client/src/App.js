@@ -4,6 +4,7 @@ import Contact from './Contact';
 import Page1 from './Department/Page1.js';
 import Auth from './Auth.js';
 import Signup from './Signup.js';
+import Material from './Material.js';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path='/dept' element={<Page1 />} />
         <Route path='/login' element={<Auth />} />
         <Route path='/signup' element={<Signup />} />
-        <Route path='/material' />
+        <Route path='/material' element={<Material />} />
       </Routes>
     </Router>
   );
